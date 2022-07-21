@@ -2,9 +2,8 @@
   "name": "kir93-expo",
   "version": "0.0.1",
   "author": "Kir93",
-  "private": true,
-  "main": "index.js",
   "license": "MIT",
+  "main": "index.js",
   "scripts": {
     "android": "expo start --android",
     "ios": "expo start --ios",
