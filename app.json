@@ -5,9 +5,7 @@
     "name": "kir93-expo",
     "slug": "kir93-expo",
     "version": "1.0.0",
-    "assetBundlePatterns": [
-      "**/*"
-    ],
+    "assetBundlePatterns": ["**/*"],
     "jsEngine": "hermes",
     "android": {
       "package": "kr.kir93"
