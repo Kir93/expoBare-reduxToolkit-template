@@ -46,5 +46,5 @@ Important library version history
 | react-Native      | v0.70.5 |
 | expo              | v47.0.0 |
 | react-navigation  | v6.2.1  |
-| styled-components | v5.3.5  |
-| reduxjs/toolkit   | v1.8.1  |
+| styled-components | v5.3.6  |
+| reduxjs/toolkit   | v1.9.1  |

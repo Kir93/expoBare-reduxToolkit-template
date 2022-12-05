@@ -24,7 +24,7 @@
     "@react-navigation/core": "^6.2.1",
     "@react-navigation/native": "^6.0.10",
     "@react-navigation/stack": "^6.2.1",
-    "@reduxjs/toolkit": "^1.8.1",
+    "@reduxjs/toolkit": "^1.9.1",
     "expo": "^47.0.0",
     "expo-app-loading": "~2.1.1",
     "expo-asset": "~8.6.2",
@@ -47,10 +47,10 @@
     "react-native-svg": "13.4.0",
     "react-native-svg-transformer": "^1.0.0",
     "react-native-web": "~0.18.7",
-    "react-redux": "^8.0.1",
+    "react-redux": "^8.0.5",
     "redux": "^4.2.0",
     "redux-logger": "^3.0.6",
-    "styled-components": "^5.3.5"
+    "styled-components": "^5.3.6"
   },
   "devDependencies": {
     "@babel/core": "^7.19.3",
