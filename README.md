@@ -14,7 +14,7 @@ yarn
 3. run expo eject
 4. package.json script rollback
 5. styles > theme.ts, styled.d.ts file changed
-6. npm run ios || npm run android
+6. yarn android || yarn ios
 
 ## Using Custom Gallery
 
