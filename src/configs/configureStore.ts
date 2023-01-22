@@ -1,15 +1,13 @@
 import logger from 'redux-logger';
 import { configureStore } from '@reduxjs/toolkit';
 
-import rootReducer from '@reducers/index';
-
-const isDev = process.env.NODE_ENV === 'development';
+import rootReducer from '@reducers';
 
 const store = configureStore({
   reducer: rootReducer,
   middleware: (getDefaultMiddleware) =>
-    isDev ? getDefaultMiddleware().concat(logger) : getDefaultMiddleware(),
-  devTools: isDev,
+    __DEV__ ? getDefaultMiddleware().concat(logger) : getDefaultMiddleware(),
+  devTools: __DEV__,
 });
 
 export default store;

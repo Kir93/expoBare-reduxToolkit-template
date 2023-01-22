@@ -10,8 +10,6 @@ const rootReducer = combineReducers({
   post: postSlick.reducer,
 });
 
-export default rootReducer;
-
 export type RootState = ReturnType<typeof rootReducer>;
 export const useTypeSelector: TypedUseSelectorHook<RootState> = useSelector;
 
@@ -24,3 +22,5 @@ export const postState = createSelector(
   (state: RootState) => state.post,
   (user) => user,
 );
+
+export default rootReducer;
