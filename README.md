@@ -6,7 +6,6 @@
 https://github.com/Kir93/expoBare-reduxToolkit-template use this template and make project
 git clone https://github.com/Kir93/{PROJECT_NAME}.git
 cd {PROJECT_NAME}
-yarn
 ```
 
 1. delete ios, android folder
@@ -14,7 +13,8 @@ yarn
 3. run expo eject
 4. package.json script rollback
 5. styles > theme.ts, styled.d.ts file changed
-6. yarn android || yarn ios
+6. yarn
+7. yarn android || yarn ios
 
 ## Using Custom Gallery
 
