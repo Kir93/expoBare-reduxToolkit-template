@@ -32,7 +32,7 @@
     "expo-image-picker": "~14.3.1",
     "expo-linking": "~3.2.3",
     "expo-media-library": "~15.2.3",
-    "expo-splash-screen": "~0.20.4",
+    "expo-splash-screen": "~0.20.5",
     "expo-status-bar": "~1.4.2",
     "expo-updates": "~0.18.9",
     "fast-deep-equal": "^3.1.3",
