@@ -54,7 +54,7 @@
   },
   "devDependencies": {
     "@babel/core": "^7.22.11",
-    "@types/lodash": "^4.14.195",
+    "@types/lodash": "^4.14.197",
     "@types/react": "~18.2.20",
     "@types/react-native": "~0.70.6",
     "@types/redux-logger": "^3.0.9",
