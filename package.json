@@ -31,7 +31,7 @@
     "expo-font": "~11.4.0",
     "expo-image-picker": "~14.3.2",
     "expo-linking": "~3.2.3",
-    "expo-media-library": "~15.2.3",
+    "expo-media-library": "~15.4.1",
     "expo-splash-screen": "~0.20.5",
     "expo-status-bar": "~1.4.2",
     "expo-updates": "~0.18.9",
