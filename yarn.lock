@@ -2785,10 +2785,10 @@
     react-is "^16.13.0"
     use-latest-callback "^0.2.1"
 
-"@react-navigation/core@^7.0.0":
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/@react-navigation/core/-/core-7.0.0.tgz#2c895598c490391428f9484de4292d512349e1d6"
-  integrity sha512-HZbWgx7Fco9orcQdAPgcq/G8C1/+Smm8LrzBsih1rBlpVornyEj8lumF6Y9fnYnHjuBhBydvYBgBqTwh87rWXA==
+"@react-navigation/core@^7.0.2":
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/@react-navigation/core/-/core-7.0.2.tgz#8fd81ab0f8bd0a9d2dee24ab83d4333b216b7ae5"
+  integrity sha512-LbDVHSxX870QVnlndqDFFP6Kulc0atpCiswiM7f6GDIHJEniz3XaX7Wg9rliZ9L35/Uy81/F7UlF/USSU7LM1w==
   dependencies:
     "@react-navigation/routers" "^7.0.0"
     escape-string-regexp "^4.0.0"
