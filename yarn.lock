@@ -8263,10 +8263,10 @@ react-native-gesture-handler@~2.21.2:
     invariant "^2.2.4"
     prop-types "^15.7.2"
 
-react-native-reanimated@~3.16.3:
-  version "3.16.3"
-  resolved "https://registry.yarnpkg.com/react-native-reanimated/-/react-native-reanimated-3.16.3.tgz#3b559dca49e9e40abcf5de834dc27fc05f856b66"
-  integrity sha512-OWlA6e1oHhytTpc7WiSZ7Tmb8OYwLKYZz29Sz6d6WAg60Hm5GuAiKIWUG7Ako7FLcYhFkA0pEQ2xPMEYUo9vlw==
+react-native-reanimated@~3.16.4:
+  version "3.16.4"
+  resolved "https://registry.yarnpkg.com/react-native-reanimated/-/react-native-reanimated-3.16.4.tgz#bb5798366aa6c4db6f53ae8a3b1d7bd6d6d903eb"
+  integrity sha512-dF1Vvu8gG+p0+DmBhKMTx5X9iw/rH1ZF9WaIn2nW0c5rxsVFf00axmDgaAdPxNWblmtLnroaKwrV7SjMUyOx+g==
   dependencies:
     "@babel/plugin-transform-arrow-functions" "^7.0.0-0"
     "@babel/plugin-transform-class-properties" "^7.0.0-0"
