@@ -3286,10 +3286,10 @@ babel-preset-current-node-syntax@^1.0.0:
     "@babel/plugin-syntax-optional-chaining" "^7.8.3"
     "@babel/plugin-syntax-top-level-await" "^7.8.3"
 
-babel-preset-expo@~12.0.3, babel-preset-expo@~12.0.7:
-  version "12.0.7"
-  resolved "https://registry.yarnpkg.com/babel-preset-expo/-/babel-preset-expo-12.0.7.tgz#3fa0527ee28bb8302039541b2cbca023c692c178"
-  integrity sha512-XT2ZOnonTU343eRnd/UBuqYLxmaB47g+RtLMANMsj/j9XL2kkTk3a6yepLbV4BrACaTf2ddiBZDi+BQ0lgjVaw==
+babel-preset-expo@~12.0.7, babel-preset-expo@~12.0.8:
+  version "12.0.8"
+  resolved "https://registry.yarnpkg.com/babel-preset-expo/-/babel-preset-expo-12.0.8.tgz#7cff59cecac8049e68de37508d860d6bb74c66d8"
+  integrity sha512-bojAddWZJusLs3NVdF+jN3WweTYVEZXBKIeO0sOhqOg7UPh5w1bnMkx7SDua0FgQMGBxb13qM31Y46yeZnmXjw==
   dependencies:
     "@babel/plugin-proposal-decorators" "^7.12.9"
     "@babel/plugin-transform-export-namespace-from" "^7.22.11"
