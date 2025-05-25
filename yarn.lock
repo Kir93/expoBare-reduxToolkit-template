@@ -1281,7 +1281,7 @@
     slugify "^1.3.4"
     sucrase "3.35.0"
 
-"@expo/config@~11.0.10":
+"@expo/config@~11.0.10", "@expo/config@~11.0.9":
   version "11.0.10"
   resolved "https://registry.yarnpkg.com/@expo/config/-/config-11.0.10.tgz#559d9425a4e0de4fab96ccac01ff40f5cebbc04b"
   integrity sha512-8S8Krr/c5lnl0eF03tA2UGY9rGBhZcbWKz2UWw5dpL/+zstwUmog8oyuuC8aRcn7GiTQLlbBkxcMeT8sOGlhbA==
@@ -1409,6 +1409,21 @@
     temp-dir "~2.0.0"
     unique-string "~2.0.0"
 
+"@expo/image-utils@^0.7.4":
+  version "0.7.4"
+  resolved "https://registry.yarnpkg.com/@expo/image-utils/-/image-utils-0.7.4.tgz#8f19e53cfc3b66293d9b0749f703e667080895d0"
+  integrity sha512-LcZ82EJy/t/a1avwIboeZbO6hlw8CvsIRh2k6SWPcAOvW0RqynyKFzUJsvnjWlhUzfBEn4oI7y/Pu5Xkw3KkkA==
+  dependencies:
+    "@expo/spawn-async" "^1.7.2"
+    chalk "^4.0.0"
+    getenv "^1.0.0"
+    jimp-compact "0.16.1"
+    parse-png "^2.1.0"
+    resolve-from "^5.0.0"
+    semver "^7.6.0"
+    temp-dir "~2.0.0"
+    unique-string "~2.0.0"
+
 "@expo/json-file@8.2.36":
   version "8.2.36"
   resolved "https://registry.yarnpkg.com/@expo/json-file/-/json-file-8.2.36.tgz#62a505cb7f30a34d097386476794680a3f7385ff"
@@ -1527,6 +1542,22 @@
     resolve-from "^5.0.0"
     semver "7.3.2"
     xml2js "0.4.23"
+
+"@expo/prebuild-config@^9.0.5":
+  version "9.0.6"
+  resolved "https://registry.yarnpkg.com/@expo/prebuild-config/-/prebuild-config-9.0.6.tgz#f634e7b8f9ebebeaf2e7d2f2be46926c23834d2b"
+  integrity sha512-HDTdlMkTQZ95rd6EpvuLM+xkZV03yGLc38FqI37qKFLJtUN1WnYVaWsuXKoljd1OrVEVsHe6CfqKwaPZ52D56Q==
+  dependencies:
+    "@expo/config" "~11.0.9"
+    "@expo/config-plugins" "~10.0.2"
+    "@expo/config-types" "^53.0.4"
+    "@expo/image-utils" "^0.7.4"
+    "@expo/json-file" "^9.1.4"
+    "@react-native/normalize-colors" "0.79.2"
+    debug "^4.3.1"
+    resolve-from "^5.0.0"
+    semver "^7.6.0"
+    xml2js "0.6.0"
 
 "@expo/prebuild-config@~8.2.0":
   version "8.2.0"
@@ -2103,6 +2134,11 @@
   version "0.79.1"
   resolved "https://registry.yarnpkg.com/@react-native/normalize-colors/-/normalize-colors-0.79.1.tgz#5d8214f850dd5d8c95f76ba8a7a2e1c0d2f344bc"
   integrity sha512-Fj12xKyihZhrFH45ruqECd2JVx9lyYe+dyxO7MYgkqY6UENsSS3JKcfzjSNBZLW7NXts6JkbaqLQPwaHmPF7QA==
+
+"@react-native/normalize-colors@0.79.2":
+  version "0.79.2"
+  resolved "https://registry.yarnpkg.com/@react-native/normalize-colors/-/normalize-colors-0.79.2.tgz#9ab70ca257c7411e4ab74cf7f91332c27d39cc6f"
+  integrity sha512-+b+GNrupWrWw1okHnEENz63j7NSMqhKeFMOyzYLBwKcprG8fqJQhDIGXfizKdxeIa5NnGSAevKL1Ev1zJ56X8w==
 
 "@react-native/normalize-colors@^0.74.1":
   version "0.74.85"
@@ -5077,12 +5113,12 @@ expo-splash-screen@~0.17.0:
     "@expo/configure-splash-screen" "^0.6.0"
     "@expo/prebuild-config" "5.0.6"
 
-expo-splash-screen@~0.29.24:
-  version "0.29.24"
-  resolved "https://registry.yarnpkg.com/expo-splash-screen/-/expo-splash-screen-0.29.24.tgz#4e5f6d576d3fbb37c5e3e4ee6d3f3b3ece350f75"
-  integrity sha512-k2rdjbb3Qeg4g104Sdz6+qXXYba8QgiuZRSxHX8IpsSYiiTU48BmCCGy12sN+O1B+sD1/+WPL4duCa1Fy6+Y4g==
+expo-splash-screen@~0.30.8:
+  version "0.30.8"
+  resolved "https://registry.yarnpkg.com/expo-splash-screen/-/expo-splash-screen-0.30.8.tgz#2e960ccff053bc8ace85eb56f7d6745e4ddfc6b6"
+  integrity sha512-2eh+uA543brfeG5HILXmtNKA7E2/pfywKzNumzy3Ef6OtDjYy6zJUGNSbhnZRbVEjUZo3/QNRs0JRBfY80okZg==
   dependencies:
-    "@expo/prebuild-config" "~8.2.0"
+    "@expo/prebuild-config" "^9.0.5"
 
 expo-status-bar@~2.0.1:
   version "2.0.1"
