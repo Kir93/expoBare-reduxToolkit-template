@@ -9,8 +9,8 @@ importers:
   .:
     dependencies:
       '@expo-google-fonts/noto-sans-kr':
-        specifier: ^0.4.0
-        version: 0.4.1
+        specifier: ^0.4.2
+        version: 0.4.2
       '@expo/vector-icons':
         specifier: ^15.0.0
         version: 15.0.0(expo-font@13.3.2(expo@53.0.22(@babel/core@7.28.3)(react-native@0.81.1(@babel/core@7.28.3)(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.12)(react@19.1.1))(react@19.1.1))(react@19.1.1))(react-native@0.81.1(@babel/core@7.28.3)(@react-native/metro-config@0.81.0(@babel/core@7.28.3))(@types/react@19.1.12)(react@19.1.1))(react@19.1.1)
@@ -781,8 +781,8 @@ packages:
     resolution: {integrity: sha512-d9zaMRSTIKDLhctzH12MtXvJKSSUhaHcjV+2Z+GK+EEY7XKpP5yR4x+N3TAcHTcu963nIr+TMcCb4DBCYX1z6Q==}
     engines: {node: ^12.22.0 || ^14.17.0 || >=16.0.0}
 
-  '@expo-google-fonts/noto-sans-kr@0.4.1':
-    resolution: {integrity: sha512-SsKO6JtprgzpaOkVsnV2K91JlqRPues9RX2ri/NO2ejKewYUdZFIYx2qZ6a0c0Qhg0K7aQnnuQoPH2cu3DYYRw==}
+  '@expo-google-fonts/noto-sans-kr@0.4.2':
+    resolution: {integrity: sha512-Z/FLp2aaMLPdKRRB7mvpErPG2XAuTxqz3fjalMHwLhooq4aefsbocuzkiQc9bbPyDeCSYksJaNNUqb5KthChkQ==}
 
   '@expo/cli@0.24.21':
     resolution: {integrity: sha512-DT6K9vgFHqqWL/19mU1ofRcPoO1pn4qmgi76GtuiNU4tbBe/02mRHwFsQw7qRfFAT28If5e/wiwVozgSuZVL8g==}
@@ -6131,7 +6131,7 @@ snapshots:
 
   '@eslint/js@8.57.1': {}
 
-  '@expo-google-fonts/noto-sans-kr@0.4.1': {}
+  '@expo-google-fonts/noto-sans-kr@0.4.2': {}
 
   '@expo/cli@0.24.21':
     dependencies:
