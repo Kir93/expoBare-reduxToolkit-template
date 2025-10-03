@@ -60,8 +60,8 @@ importers:
         specifier: ~3.0.8
         version: 3.0.8(react-native@0.81.4(@babel/core@7.28.4)(@react-native/metro-config@0.81.0(@babel/core@7.28.4))(@types/react@19.1.13)(react@19.1.1))(react@19.1.1)
       expo-updates:
-        specifier: ~29.0.10
-        version: 29.0.10(expo@53.0.22(@babel/core@7.28.4)(react-native@0.81.4(@babel/core@7.28.4)(@react-native/metro-config@0.81.0(@babel/core@7.28.4))(@types/react@19.1.13)(react@19.1.1))(react@19.1.1))(react-native@0.81.4(@babel/core@7.28.4)(@react-native/metro-config@0.81.0(@babel/core@7.28.4))(@types/react@19.1.13)(react@19.1.1))(react@19.1.1)
+        specifier: ~29.0.12
+        version: 29.0.12(expo@53.0.22(@babel/core@7.28.4)(react-native@0.81.4(@babel/core@7.28.4)(@react-native/metro-config@0.81.0(@babel/core@7.28.4))(@types/react@19.1.13)(react@19.1.1))(react@19.1.1))(react-native@0.81.4(@babel/core@7.28.4)(@react-native/metro-config@0.81.0(@babel/core@7.28.4))(@types/react@19.1.13)(react@19.1.1))(react@19.1.1)
       fast-deep-equal:
         specifier: ^3.1.3
         version: 3.1.3
@@ -2701,8 +2701,8 @@ packages:
     peerDependencies:
       expo: '*'
 
-  expo-updates@29.0.10:
-    resolution: {integrity: sha512-W2/6xRgKZUZ2wTQr+EPJPhcPQCvSOF3+tdolS2kwLEuGjqypoFVT3+6r0XwKRSI1d3zFMxGWLRPzQTn1q8Fd2w==}
+  expo-updates@29.0.12:
+    resolution: {integrity: sha512-gE3bU6qi5g8Y1TtBzoeHac3utR0i1Wj1ufThh+zpDyFjFbegFm+gwvNLVCBagZUClYKk/4CKxh5ytnwZmPzH+g==}
     hasBin: true
     peerDependencies:
       expo: '*'
@@ -5973,7 +5973,7 @@ snapshots:
   '@eslint/eslintrc@2.1.4':
     dependencies:
       ajv: 6.12.6
-      debug: 4.4.3
+      debug: 4.4.1
       espree: 9.6.1
       globals: 13.24.0
       ignore: 5.3.2
@@ -6471,7 +6471,7 @@ snapshots:
   '@humanwhocodes/config-array@0.13.0':
     dependencies:
       '@humanwhocodes/object-schema': 2.0.3
-      debug: 4.4.3
+      debug: 4.4.1
       minimatch: 3.1.2
     transitivePeerDependencies:
       - supports-color
@@ -7388,7 +7388,7 @@ snapshots:
     dependencies:
       '@typescript-eslint/types': 5.62.0
       '@typescript-eslint/visitor-keys': 5.62.0
-      debug: 4.4.3
+      debug: 4.4.1
       globby: 11.1.0
       is-glob: 4.0.3
       semver: 7.7.2
@@ -8842,7 +8842,7 @@ snapshots:
 
   expo-manifests@1.0.8(expo@53.0.22(@babel/core@7.28.4)(react-native@0.81.4(@babel/core@7.28.4)(@react-native/metro-config@0.81.0(@babel/core@7.28.4))(@types/react@19.1.13)(react@19.1.1))(react@19.1.1)):
     dependencies:
-      '@expo/config': 12.0.9
+      '@expo/config': 12.0.10
       expo: 53.0.22(@babel/core@7.28.4)(react-native@0.81.4(@babel/core@7.28.4)(@react-native/metro-config@0.81.0(@babel/core@7.28.4))(@types/react@19.1.13)(react@19.1.1))(react@19.1.1)
       expo-json-utils: 0.15.0
     transitivePeerDependencies:
@@ -8896,7 +8896,7 @@ snapshots:
     dependencies:
       expo: 53.0.22(@babel/core@7.28.4)(react-native@0.81.4(@babel/core@7.28.4)(@react-native/metro-config@0.81.0(@babel/core@7.28.4))(@types/react@19.1.13)(react@19.1.1))(react@19.1.1)
 
-  expo-updates@29.0.10(expo@53.0.22(@babel/core@7.28.4)(react-native@0.81.4(@babel/core@7.28.4)(@react-native/metro-config@0.81.0(@babel/core@7.28.4))(@types/react@19.1.13)(react@19.1.1))(react@19.1.1))(react-native@0.81.4(@babel/core@7.28.4)(@react-native/metro-config@0.81.0(@babel/core@7.28.4))(@types/react@19.1.13)(react@19.1.1))(react@19.1.1):
+  expo-updates@29.0.12(expo@53.0.22(@babel/core@7.28.4)(react-native@0.81.4(@babel/core@7.28.4)(@react-native/metro-config@0.81.0(@babel/core@7.28.4))(@types/react@19.1.13)(react@19.1.1))(react@19.1.1))(react-native@0.81.4(@babel/core@7.28.4)(@react-native/metro-config@0.81.0(@babel/core@7.28.4))(@types/react@19.1.13)(react@19.1.1))(react@19.1.1):
     dependencies:
       '@expo/code-signing-certificates': 0.0.5
       '@expo/plist': 0.4.7
