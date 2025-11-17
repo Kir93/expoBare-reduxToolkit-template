@@ -48,8 +48,8 @@ importers:
         specifier: ~17.0.8
         version: 17.0.8(expo@54.0.23(@babel/core@7.28.5)(react-native@0.82.1(@babel/core@7.28.5)(@types/react@19.2.5)(react@19.2.0))(react@19.2.0))
       expo-linking:
-        specifier: ~8.0.8
-        version: 8.0.8(expo@54.0.23(@babel/core@7.28.5)(react-native@0.82.1(@babel/core@7.28.5)(@types/react@19.2.5)(react@19.2.0))(react@19.2.0))(react-native@0.82.1(@babel/core@7.28.5)(@types/react@19.2.5)(react@19.2.0))(react@19.2.0)
+        specifier: ~8.0.9
+        version: 8.0.9(expo@54.0.23(@babel/core@7.28.5)(react-native@0.82.1(@babel/core@7.28.5)(@types/react@19.2.5)(react@19.2.0))(react@19.2.0))(react-native@0.82.1(@babel/core@7.28.5)(@types/react@19.2.5)(react@19.2.0))(react@19.2.0)
       expo-media-library:
         specifier: ~18.2.0
         version: 18.2.0(expo@54.0.23(@babel/core@7.28.5)(react-native@0.82.1(@babel/core@7.28.5)(@types/react@19.2.5)(react@19.2.0))(react@19.2.0))(react-native@0.82.1(@babel/core@7.28.5)(@types/react@19.2.5)(react@19.2.0))
@@ -2579,8 +2579,8 @@ packages:
       expo: '*'
       react: '*'
 
-  expo-linking@8.0.8:
-    resolution: {integrity: sha512-MyeMcbFDKhXh4sDD1EHwd0uxFQNAc6VCrwBkNvvvufUsTYFq3glTA9Y8a+x78CPpjNqwNAamu74yIaIz7IEJyg==}
+  expo-linking@8.0.9:
+    resolution: {integrity: sha512-a0UHhlVyfwIbn8b1PSFPoFiIDJeps2iEq109hVH3CHd0CMKuRxFfNio9Axe2BjXhiJCYWR4OV1iIyzY/GjiVkQ==}
     peerDependencies:
       react: '*'
       react-native: '*'
@@ -8511,7 +8511,7 @@ snapshots:
       expo: 54.0.23(@babel/core@7.28.5)(react-native@0.82.1(@babel/core@7.28.5)(@types/react@19.2.5)(react@19.2.0))(react@19.2.0)
       react: 19.2.0
 
-  expo-linking@8.0.8(expo@54.0.23(@babel/core@7.28.5)(react-native@0.82.1(@babel/core@7.28.5)(@types/react@19.2.5)(react@19.2.0))(react@19.2.0))(react-native@0.82.1(@babel/core@7.28.5)(@types/react@19.2.5)(react@19.2.0))(react@19.2.0):
+  expo-linking@8.0.9(expo@54.0.23(@babel/core@7.28.5)(react-native@0.82.1(@babel/core@7.28.5)(@types/react@19.2.5)(react@19.2.0))(react@19.2.0))(react-native@0.82.1(@babel/core@7.28.5)(@types/react@19.2.5)(react@19.2.0))(react@19.2.0):
     dependencies:
       expo-constants: 18.0.10(expo@54.0.23(@babel/core@7.28.5)(react-native@0.82.1(@babel/core@7.28.5)(@types/react@19.2.5)(react@19.2.0))(react@19.2.0))(react-native@0.82.1(@babel/core@7.28.5)(@types/react@19.2.5)(react@19.2.0))
       invariant: 2.2.4
