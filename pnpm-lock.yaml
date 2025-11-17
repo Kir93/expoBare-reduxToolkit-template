@@ -54,8 +54,8 @@ importers:
         specifier: ~18.2.0
         version: 18.2.0(expo@54.0.23(@babel/core@7.28.5)(react-native@0.82.1(@babel/core@7.28.5)(@types/react@19.2.5)(react@19.2.0))(react@19.2.0))(react-native@0.82.1(@babel/core@7.28.5)(@types/react@19.2.5)(react@19.2.0))
       expo-splash-screen:
-        specifier: ~31.0.10
-        version: 31.0.10(expo@54.0.23(@babel/core@7.28.5)(react-native@0.82.1(@babel/core@7.28.5)(@types/react@19.2.5)(react@19.2.0))(react@19.2.0))
+        specifier: ~31.0.11
+        version: 31.0.11(expo@54.0.23(@babel/core@7.28.5)(react-native@0.82.1(@babel/core@7.28.5)(@types/react@19.2.5)(react@19.2.0))(react@19.2.0))
       expo-status-bar:
         specifier: ~3.0.8
         version: 3.0.8(react-native@0.82.1(@babel/core@7.28.5)(@types/react@19.2.5)(react@19.2.0))(react@19.2.0)
@@ -2615,8 +2615,8 @@ packages:
     peerDependencies:
       expo: '*'
 
-  expo-splash-screen@31.0.10:
-    resolution: {integrity: sha512-i6g9IK798mae4yvflstQ1HkgahIJ6exzTCTw4vEdxV0J2SwiW3Tj+CwRjf0te7Zsb+7dDQhBTmGZwdv00VER2A==}
+  expo-splash-screen@31.0.11:
+    resolution: {integrity: sha512-D7MQflYn/PAN3+fACSyxHO4oxZMBezllbgFdVY8roAS1gXpCy8SS6LrGHTD0VpOPEp3X4Gn7evTnXSI9nFoI5Q==}
     peerDependencies:
       expo: '*'
 
@@ -8560,7 +8560,7 @@ snapshots:
       - expo-modules-autolinking
       - supports-color
 
-  expo-splash-screen@31.0.10(expo@54.0.23(@babel/core@7.28.5)(react-native@0.82.1(@babel/core@7.28.5)(@types/react@19.2.5)(react@19.2.0))(react@19.2.0)):
+  expo-splash-screen@31.0.11(expo@54.0.23(@babel/core@7.28.5)(react-native@0.82.1(@babel/core@7.28.5)(@types/react@19.2.5)(react@19.2.0))(react@19.2.0)):
     dependencies:
       '@expo/prebuild-config': 54.0.6(expo@54.0.23(@babel/core@7.28.5)(react-native@0.82.1(@babel/core@7.28.5)(@types/react@19.2.5)(react@19.2.0))(react@19.2.0))
       expo: 54.0.23(@babel/core@7.28.5)(react-native@0.82.1(@babel/core@7.28.5)(@types/react@19.2.5)(react@19.2.0))(react@19.2.0)
