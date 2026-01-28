@@ -13,7 +13,7 @@ importers:
         version: 0.4.2
       '@expo/vector-icons':
         specifier: ^15.0.3
-        version: 15.0.3(expo-font@14.0.10(expo@54.0.32(@babel/core@7.28.6)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3))(react@19.2.3))(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3))(react@19.2.3))(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3))(react@19.2.3)
+        version: 15.0.3(expo-font@14.0.11(expo@54.0.32(@babel/core@7.28.6)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3))(react@19.2.3))(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3))(react@19.2.3))(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3))(react@19.2.3)
       '@react-native-community/masked-view':
         specifier: 0.1.11
         version: 0.1.11(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3))(react@19.2.3)
@@ -42,8 +42,8 @@ importers:
         specifier: ~12.0.12
         version: 12.0.12(expo@54.0.32(@babel/core@7.28.6)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3))(react@19.2.3))(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3))(react@19.2.3)
       expo-font:
-        specifier: ~14.0.10
-        version: 14.0.10(expo@54.0.32(@babel/core@7.28.6)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3))(react@19.2.3))(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3))(react@19.2.3)
+        specifier: ~14.0.11
+        version: 14.0.11(expo@54.0.32(@babel/core@7.28.6)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3))(react@19.2.3))(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3))(react@19.2.3)
       expo-image-picker:
         specifier: ~17.0.10
         version: 17.0.10(expo@54.0.32(@babel/core@7.28.6)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3))(react@19.2.3))
@@ -2567,13 +2567,6 @@ packages:
       expo: '*'
       react-native: '*'
 
-  expo-font@14.0.10:
-    resolution: {integrity: sha512-UqyNaaLKRpj4pKAP4HZSLnuDQqueaO5tB1c/NWu5vh1/LF9ulItyyg2kF/IpeOp0DeOLk0GY0HrIXaKUMrwB+Q==}
-    peerDependencies:
-      expo: '*'
-      react: '*'
-      react-native: '*'
-
   expo-font@14.0.11:
     resolution: {integrity: sha512-ga0q61ny4s/kr4k8JX9hVH69exVSIfcIc19+qZ7gt71Mqtm7xy2c6kwsPTCyhBW2Ro5yXTT8EaZOpuRi35rHbg==}
     peerDependencies:
@@ -4751,6 +4744,7 @@ packages:
   tar@7.5.6:
     resolution: {integrity: sha512-xqUeu2JAIJpXyvskvU3uvQW8PAmHrtXp2KDuMJwQqW8Sqq0CaZBAQ+dKS3RBXVhU4wC5NjAdKrmh84241gO9cA==}
     engines: {node: '>=18'}
+    deprecated: Old versions of tar are not supported, and contain widely publicized security vulnerabilities, which have been fixed in the current version. Please update. Support for old versions may be purchased (at exhorbitant rates) by contacting i@izs.me
 
   temp-dir@1.0.0:
     resolution: {integrity: sha512-xZFXEGbG7SNC3itwBzI3RYjq/cEhBkx2hJuKGIUOcEULmkQExXiHat2z/qkISYsuR+IKumhEfKKbV5qXmhICFQ==}
@@ -6343,12 +6337,6 @@ snapshots:
       cross-spawn: 7.0.6
 
   '@expo/sudo-prompt@9.3.2': {}
-
-  '@expo/vector-icons@15.0.3(expo-font@14.0.10(expo@54.0.32(@babel/core@7.28.6)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3))(react@19.2.3))(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3))(react@19.2.3))(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3))(react@19.2.3)':
-    dependencies:
-      expo-font: 14.0.10(expo@54.0.32(@babel/core@7.28.6)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3))(react@19.2.3))(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3))(react@19.2.3)
-      react: 19.2.3
-      react-native: 0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3)
 
   '@expo/vector-icons@15.0.3(expo-font@14.0.11(expo@54.0.32(@babel/core@7.28.6)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3))(react@19.2.3))(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3))(react@19.2.3))(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3))(react@19.2.3)':
     dependencies:
@@ -8424,13 +8412,6 @@ snapshots:
   expo-file-system@19.0.21(expo@54.0.32(@babel/core@7.28.6)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3))(react@19.2.3))(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3)):
     dependencies:
       expo: 54.0.32(@babel/core@7.28.6)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3))(react@19.2.3)
-      react-native: 0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3)
-
-  expo-font@14.0.10(expo@54.0.32(@babel/core@7.28.6)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3))(react@19.2.3))(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3))(react@19.2.3):
-    dependencies:
-      expo: 54.0.32(@babel/core@7.28.6)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3))(react@19.2.3)
-      fontfaceobserver: 2.3.0
-      react: 19.2.3
       react-native: 0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3)
 
   expo-font@14.0.11(expo@54.0.32(@babel/core@7.28.6)(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3))(react@19.2.3))(react-native@0.83.1(@babel/core@7.28.6)(@types/react@19.2.8)(react@19.2.3))(react@19.2.3):
