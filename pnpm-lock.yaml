@@ -145,8 +145,8 @@ importers:
         specifier: ^9.26.0
         version: 9.26.0(hono@4.11.7)
       eslint-config-airbnb-typescript:
-        specifier: ^17.1.0
-        version: 17.1.0(@typescript-eslint/eslint-plugin@5.62.0(@typescript-eslint/parser@5.62.0(eslint@9.26.0(hono@4.11.7))(typescript@5.9.3))(eslint@9.26.0(hono@4.11.7))(typescript@5.9.3))(@typescript-eslint/parser@5.62.0(eslint@9.26.0(hono@4.11.7))(typescript@5.9.3))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@5.62.0(eslint@9.26.0(hono@4.11.7))(typescript@5.9.3))(eslint@9.26.0(hono@4.11.7)))(eslint@9.26.0(hono@4.11.7))
+        specifier: ^18.0.0
+        version: 18.0.0(@typescript-eslint/eslint-plugin@5.62.0(@typescript-eslint/parser@5.62.0(eslint@9.26.0(hono@4.11.7))(typescript@5.9.3))(eslint@9.26.0(hono@4.11.7))(typescript@5.9.3))(@typescript-eslint/parser@5.62.0(eslint@9.26.0(hono@4.11.7))(typescript@5.9.3))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@5.62.0(eslint@9.26.0(hono@4.11.7))(typescript@5.9.3))(eslint@9.26.0(hono@4.11.7)))(eslint@9.26.0(hono@4.11.7))
       eslint-config-prettier:
         specifier: ^10.1.5
         version: 10.1.8(eslint@9.26.0(hono@4.11.7))
@@ -2356,13 +2356,12 @@ packages:
       eslint: ^7.32.0 || ^8.2.0
       eslint-plugin-import: ^2.25.2
 
-  eslint-config-airbnb-typescript@17.1.0:
-    resolution: {integrity: sha512-GPxI5URre6dDpJ0CtcthSZVBAfI+Uw7un5OYNVxP2EYi3H81Jw701yFP7AU+/vCE7xBtFmjge7kfhhk4+RAiig==}
+  eslint-config-airbnb-typescript@18.0.0:
+    resolution: {integrity: sha512-oc+Lxzgzsu8FQyFVa4QFaVKiitTYiiW3frB9KYW5OWdPrqFc7FzxgB20hP4cHMlr+MBzGcLl3jnCOVOydL9mIg==}
     peerDependencies:
-      '@typescript-eslint/eslint-plugin': ^5.13.0 || ^6.0.0
-      '@typescript-eslint/parser': ^5.0.0 || ^6.0.0
-      eslint: ^7.32.0 || ^8.2.0
-      eslint-plugin-import: ^2.25.3
+      '@typescript-eslint/eslint-plugin': ^7.0.0
+      '@typescript-eslint/parser': ^7.0.0
+      eslint: ^8.56.0
 
   eslint-config-prettier@10.1.8:
     resolution: {integrity: sha512-82GZUjRS0p/jganf6q1rEO25VSoHH0hKPCTrgillPjdI/3bgBhAE1QzHrHTizjpRvy6pGAvKjDJtk2pF9NDq8w==}
@@ -6047,7 +6046,7 @@ snapshots:
       getenv: 1.0.0
       glob: 7.1.6
       resolve-from: 5.0.0
-      semver: 7.7.3
+      semver: 7.7.4
       slash: 3.0.0
       xcode: 3.0.1
       xml2js: 0.4.23
@@ -8164,13 +8163,14 @@ snapshots:
       object.entries: 1.1.9
       semver: 6.3.1
 
-  eslint-config-airbnb-typescript@17.1.0(@typescript-eslint/eslint-plugin@5.62.0(@typescript-eslint/parser@5.62.0(eslint@9.26.0(hono@4.11.7))(typescript@5.9.3))(eslint@9.26.0(hono@4.11.7))(typescript@5.9.3))(@typescript-eslint/parser@5.62.0(eslint@9.26.0(hono@4.11.7))(typescript@5.9.3))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@5.62.0(eslint@9.26.0(hono@4.11.7))(typescript@5.9.3))(eslint@9.26.0(hono@4.11.7)))(eslint@9.26.0(hono@4.11.7)):
+  eslint-config-airbnb-typescript@18.0.0(@typescript-eslint/eslint-plugin@5.62.0(@typescript-eslint/parser@5.62.0(eslint@9.26.0(hono@4.11.7))(typescript@5.9.3))(eslint@9.26.0(hono@4.11.7))(typescript@5.9.3))(@typescript-eslint/parser@5.62.0(eslint@9.26.0(hono@4.11.7))(typescript@5.9.3))(eslint-plugin-import@2.32.0(@typescript-eslint/parser@5.62.0(eslint@9.26.0(hono@4.11.7))(typescript@5.9.3))(eslint@9.26.0(hono@4.11.7)))(eslint@9.26.0(hono@4.11.7)):
     dependencies:
       '@typescript-eslint/eslint-plugin': 5.62.0(@typescript-eslint/parser@5.62.0(eslint@9.26.0(hono@4.11.7))(typescript@5.9.3))(eslint@9.26.0(hono@4.11.7))(typescript@5.9.3)
       '@typescript-eslint/parser': 5.62.0(eslint@9.26.0(hono@4.11.7))(typescript@5.9.3)
       eslint: 9.26.0(hono@4.11.7)
       eslint-config-airbnb-base: 15.0.0(eslint-plugin-import@2.32.0(@typescript-eslint/parser@5.62.0(eslint@9.26.0(hono@4.11.7))(typescript@5.9.3))(eslint@9.26.0(hono@4.11.7)))(eslint@9.26.0(hono@4.11.7))
-      eslint-plugin-import: 2.32.0(@typescript-eslint/parser@5.62.0(eslint@9.26.0(hono@4.11.7))(typescript@5.9.3))(eslint@9.26.0(hono@4.11.7))
+    transitivePeerDependencies:
+      - eslint-plugin-import
 
   eslint-config-prettier@10.1.8(eslint@9.26.0(hono@4.11.7)):
     dependencies:
@@ -10138,7 +10138,7 @@ snapshots:
     dependencies:
       hosted-git-info: 7.0.2
       proc-log: 4.2.0
-      semver: 7.7.3
+      semver: 7.7.4
       validate-npm-package-name: 5.0.1
 
   npm-run-path@4.0.1:
