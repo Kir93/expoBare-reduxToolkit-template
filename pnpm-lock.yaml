@@ -48,8 +48,8 @@ importers:
         specifier: ~17.0.10
         version: 17.0.10(expo@55.0.5)
       expo-linking:
-        specifier: ~8.0.11
-        version: 8.0.11(expo@55.0.5)(react-native@0.84.0(@babel/core@7.29.0)(@types/react@19.2.14)(react@19.2.4))(react@19.2.4)
+        specifier: ~55.0.7
+        version: 55.0.7(expo@55.0.5)(react-native@0.84.0(@babel/core@7.29.0)(@types/react@19.2.14)(react@19.2.4))(react@19.2.4)(typescript@5.9.3)
       expo-media-library:
         specifier: ~18.2.1
         version: 18.2.1(expo@55.0.5)(react-native@0.84.0(@babel/core@7.29.0)(@types/react@19.2.14)(react@19.2.4))
@@ -2692,8 +2692,8 @@ packages:
       expo: '*'
       react: '*'
 
-  expo-linking@8.0.11:
-    resolution: {integrity: sha512-+VSaNL5om3kOp/SSKO5qe6cFgfSIWnnQDSbA7XLs3ECkYzXRquk5unxNS3pg7eK5kNUmQ4kgLI7MhTggAEUBLA==}
+  expo-linking@55.0.7:
+    resolution: {integrity: sha512-MiGCedere1vzQTEi2aGrkzd7eh/rPSz4w6F3GMBuAJzYl+/0VhIuyhozpEGrueyDIXWfzaUVOcn3SfxVi+kwQQ==}
     peerDependencies:
       react: '*'
       react-native: '*'
@@ -8846,15 +8846,16 @@ snapshots:
       expo: 55.0.5(@babel/core@7.29.0)(@expo/dom-webview@55.0.3)(react-dom@19.2.4(react@19.2.4))(react-native@0.84.0(@babel/core@7.29.0)(@types/react@19.2.14)(react@19.2.4))(react@19.2.4)(typescript@5.9.3)
       react: 19.2.4
 
-  expo-linking@8.0.11(expo@55.0.5)(react-native@0.84.0(@babel/core@7.29.0)(@types/react@19.2.14)(react@19.2.4))(react@19.2.4):
+  expo-linking@55.0.7(expo@55.0.5)(react-native@0.84.0(@babel/core@7.29.0)(@types/react@19.2.14)(react@19.2.4))(react@19.2.4)(typescript@5.9.3):
     dependencies:
-      expo-constants: 18.0.12(expo@55.0.5)(react-native@0.84.0(@babel/core@7.29.0)(@types/react@19.2.14)(react@19.2.4))
+      expo-constants: 55.0.7(expo@55.0.5)(react-native@0.84.0(@babel/core@7.29.0)(@types/react@19.2.14)(react@19.2.4))(typescript@5.9.3)
       invariant: 2.2.4
       react: 19.2.4
       react-native: 0.84.0(@babel/core@7.29.0)(@types/react@19.2.14)(react@19.2.4)
     transitivePeerDependencies:
       - expo
       - supports-color
+      - typescript
 
   expo-manifests@1.0.10(expo@55.0.5):
     dependencies:
