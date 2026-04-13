@@ -34,7 +34,7 @@
     "expo-media-library": "~18.2.1",
     "expo-splash-screen": "~31.0.13",
     "expo-status-bar": "~3.0.9",
-    "expo-updates": "~29.0.16",
+    "expo-updates": "~55.0.20",
     "fast-deep-equal": "^3.1.3",
     "lodash": "^4.18.1",
     "react": "19.2.4",
